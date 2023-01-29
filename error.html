@@ -1,7 +1,12 @@
 <html>
   <head></head>
-  <body style="background-color: #000; margin: 0;">
+  <body style="background-color: #000; margin: 0;" onclick="playAudio()">
     <img height="100%" src="./ClassicErrorScreen.png" style="position: absolute; left: 50%; transform: translateX(-50%);">
-    <audio src="./ClassicError.wav" autoplay hidden>
+    <audio src="./ClassicError.wav" autoplay hidden id="error">
+    <script>
+      function playAudio() {
+        document.getElementById('error').play();
+      }
+    </script>
   </body>
 </html>
