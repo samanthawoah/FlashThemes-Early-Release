@@ -6,7 +6,9 @@
     <script>
       var played = false;
       function playAudio() {
-        document.getElementById('error').play();
+        if (!played) {
+          document.getElementById('error').play();
+        }
         played = true;
       }
     </script>
