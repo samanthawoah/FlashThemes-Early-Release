@@ -3,9 +3,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
 <head>
-<link href="/static/ft/css/movie2.css" rel="stylesheet" type="text/css" />
+<style>
+	div.content{width:960px;margin:0}div.brief_duration{padding:2px;border-radius:0 5px 5px 0;margin-top:50px;vertical-align:bottom;display:inline-block;color:#fff;background:rgba(0,0,0,.6);position:absolute}.frm_txt{border:1px solid #ccc;color:#333;font-family:trebuchet ms,Verdana,Arial,Helvetica,sans-serif;padding:4px 2px}#movie_wrapper{background:#333 url(https://flashthemes.net/static/ft/img/common/bg02.png) no-repeat 0 0;color:#fff;padding:20px 0 10px;width:1016px;border-radius:10px 10px 0 0}#movie.wide{width:580px}#movie.standard{width:570px}#movie{margin:0 30px;position:relative;float:left}#movie_header{margin-bottom:5px;width:100%}#movie_header h1{color:#fff;font-size:18px;font-weight:400;overflow-wrap:break-word;float:left;margin:0;width:496px}#movie_header .views{background:#3e3e3e url(https://flashthemes.net/static/ft/img/movie/ico_view.gif) no-repeat 4px 50%;border:1px solid #666;float:right;padding:3px 6px 3px 26px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}#movie_container{background-color:#565656;padding:10px}#movie_actions{margin:0 0 10px;position:relative}#movie_actions .actions{float:right;position:relative;width:260px}#movie_actions .movie_action_button{background-color:#3f3f3f;border:1px solid #999;color:#fff;display:block;float:right;padding:3px 6px;margin:10px 10px 0 0;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}#movie_actions .movie_action_button:hover{background-color:#aaa;color:#333;cursor:pointer}.recommend_button{background:#3f3f3f url(https://flashthemes.net/static/ft/img/movie/ico_recommend.gif) no-repeat 2px 0;border:1px solid #999;color:#fff;display:block;float:right;height:18px;padding:3px 0 3px 22px;margin-top:10px;margin-right:8px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}.recommend_button span{background-color:#777;color:#fff;height:18px;padding:3px 6px}.recommend_button:hover span{background-color:#999;color:#333}.recommend_button:hover{background-position:2px -24px;cursor:pointer}#recommend_button:hover{background-position:2px -24px;cursor:pointer}#unrecommend_button{background-position:2px -48px;cursor:pointer}#unrecommend_button:hover{background-position:2px -96px;cursor:pointer}#inappropriate{transition:all .3s ease-out;-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;background-image:url(https://flashthemes.net/static/ft/img/movie/icon_flag.png);border:1px solid #444;background-color:#333;color:#fff;display:block;float:left;width:23px;height:23px;margin-top:10px;margin-left:2px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}#inappropriate:hover{background-color:#692a2a;border:#692a2a 1px solid;cursor:pointer}#inappropriate span{display:none}#download_button{background:#aaa url(https://flashthemes.net/static/ft/img/movie/ico_download.gif) no-repeat -60px 50%;border:1px solid #ddd;color:#333;display:block;float:right;padding:4px 0 4px 30px;margin:0 0 0 8px;-webkit-border-bottom-left-radius:4px;-webkit-border-bottom-right-radius:4px;-moz-border-radius-bottomleft:4px;-moz-border-radius-bottomright:4px;border-bottom-left-radius:4px;border-bottom-right-radius:4px}#download_button.active{background:#f62 url(https://flashthemes.net/static/ft/img/movie/ico_download.gif) no-repeat 0 50%}#download_button.ready{background:#6cb73a url(https://flashthemes.net/static/ft/img/movie/ico_download.gif) no-repeat -30px 50%}#download_button span{background-color:#ddd;padding:4px 12px}#download_button:hover span{background-color:#fff}#youtube_button{background:transparent url(https://flashthemes.net/static/ft/img/movie/btn_youtube01.gif) no-repeat 0 0;display:block;float:right;position:relative;height:28px;width:97px}#youtube_button:hover{background-position:0 -28px}#youtube_button span{display:none}#youtube_button .desc{display:none;background-color:#09f;color:#fefefe;font-size:11px;padding:10px;position:absolute;bottom:34px;left:-30px;width:150px;text-align:center;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;z-index:10}#youtube_button:hover .desc{display:block}#youtube_button .desc .arrow{background:transparent url(https://flashthemes.net/static/ft/img/dashboard/ico_arrow_02.gif) no-repeat 0 0;position:absolute;height:8px;width:15px;bottom:-8px;left:50%;margin-left:-8px}#movie_options{background-color:#494949;color:#bbb;cursor:pointer;display:block;float:right;margin-left:8px;width:40px;position:relative;-webkit-border-bottom-left-radius:4px;-webkit-border-bottom-right-radius:4px;-moz-border-radius-bottomleft:4px;-moz-border-radius-bottomright:4px;border-bottom-left-radius:4px;border-bottom-right-radius:4px}#movie_options.hover{background-color:#999;color:#333;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}#movie_options .label{background:transparent url(https://flashthemes.net/static/ft/img/movie/ico_option.png) no-repeat 5px center;padding:4px 0;height:20px}#movie_options .label img{margin-left:25px;vertical-align:middle}#movie_options ul{background-color:#f4f4f4;color:#333;display:none;list-style-type:none;padding:5px 0;margin:0;position:absolute;top:28px;right:0;width:200px;z-index:10;-webkit-border-bottom-left-radius:4px;-webkit-border-bottom-right-radius:4px;-webkit-border-top-left-radius:4px;-moz-border-radius-bottomleft:4px;-moz-border-radius-bottomright:4px;-moz-border-radius-topleft:4px;border-bottom-left-radius:4px;border-bottom-right-radius:4px;border-top-left-radius:4px}#movie_options.hover ul{display:block;z-index:5}#movie_options ul li{padding:5px;margin:0}#movie_options ul a{color:#333;display:block;height:15px}#movie_options .options_icon{background-color:transparent;background-position:0 0;background-repeat:no-repeat;float:left;margin-right:5px;height:15px;width:20px}#movie_options ul a:hover{color:#ff7b2a}#movie_options ul a:hover .options_icon{background-color:#f4f4f4;background-position:0 -15px}#movie_options .options_edit .options_icon{background-image:url(https://flashthemes.net/static/ft/img/movie/ico_edit.gif)}#movie_options .options_copy .options_icon{background-image:url(https://flashthemes.net/static/ft/img/movie/ico_copy.gif)}#movie_options .options_public .options_icon{background-image:url(https://flashthemes.net/static/ft/img/movie/ico_public.gif)}#movie_options .options_unpublish .options_icon{background-image:url(https://flashthemes.net/static/ft/img/movie/ico_unpublish.gif)}#movie_options .options_delete .options_icon{background-image:url(https://flashthemes.net/static/ft/img/movie/ico_delete.gif)}#movie_options .options_allow_copy .options_icon{background-image:url(https://flashthemes.net/static/ft/img/movie/ico_allow_copy.gif)}#movie_options .options_allow_download .options_icon{background-image:url(https://flashthemes.net/static/ft/img/movie/ico_allow_download.gif)}#movie_aside{float:left;padding:31px 0 10px;position:relative;width:360px}#movie_aside .column{padding:0 0 10px}#animator_profile{border-bottom:1px dashed #ccc;color:#999;padding-bottom:10px;min-height:60px;position:relative;width:100%}#animator_profile .pic{position:absolute;top:0;left:0;height:60px;width:60px;overflow:hidden}#animator_profile .info{margin-left:70px;width:190px}#animator_profile .info strong{color:#fff}#fans_button{background-color:#777;border:1px solid #999;color:#fff;position:absolute;bottom:10px;right:0;padding:4px 10px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}#fans_button:hover{background-color:#aaa;color:#333}#hidden_animator{border-bottom:1px dashed #ccc;color:#fff;font-weight:700;padding-bottom:10px}#movie_details_container{position:absolute;top:31px;right:0;width:50px;text-align:right}#movie_details_container .more{display:inline-block;height:20px;padding:0 5px;line-height:20px}#movie_details_container.hover .more{opacity:.9;background-color:#fff;color:#000}#movie_details{display:none;background-color:#fff;color:#000;font-weight:700;padding:15px;width:270px;position:absolute;top:20px;right:0;text-align:left;z-index:10;opacity:.9;-webkit-border-radius:3px;-webkit-border-top-right-radius:0;-moz-border-radius:3px;-moz-border-radius-topright:0;border-radius:3px;border-top-right-radius:0}#movie_details_container.hover #movie_details{display:block}#movie_share label{display:block;clear:both;margin:0 auto 10px;padding:0;width:fit-content}#movie_share label span{float:left;margin-top:3px}#movie_share label input{background-color:#3f3f3f;border:1px solid #4d4d4d;color:#999;float:left;margin:0 5px;width:175px;padding:1px 5px}#movie_share .embedbtn,#movie_share .emailbtn{float:left;margin-right:15px;padding-top:2px}.googleplus{float:left;padding-top:4px;margin-right:14px}.embedmoviebox{text-align:left}.embedmoviebox .title{color:#666;font-size:18px;font-style:italic;font-weight:700;padding:25px 0 43px 28px}.embedmoviebox .inputRow .inputTitle{color:#666;font-size:14px;font-style:italic;padding-left:33px}.embedmoviebox .inputRow .inputData{font-size:14px;padding:3px 0 0 33px}.embedmoviebox .inputRow .inputData textarea{width:425px;height:40px;font-size:12px;color:#999}.embedmoviebox hr{background-color:#ddd;margin:0 10px;width:auto}#movie_sharer .links{width:290px;float:left;padding-bottom:10px}#movie_sharer a{color:#999;font-weight:700;line-height:22px;margin-right:14px;float:left}.gigya_popup{position:absolute;right:10px;top:178px;z-index:8}#movie_signup_block{background:transparent url(https://flashthemes.net/static/ft/img/movie/img_pirate.jpg) no-repeat 0 0;padding:170px 0 0 30px;font-size:14px}#movie_signup.facebook{background:transparent url(https://flashthemes.net/static/ft/img/movie/signup_banner_fb.gif) no-repeat center 0;color:#fff;font-size:14px;height:205px;padding-top:80px;text-align:center}#facebook_signup_button{background:transparent url(https://flashthemes.net/static/ft/img/landing/normal/btn_fb.gif) no-repeat center 0;display:block;margin:0 auto 10px;height:35px;width:270px}#facebook_signup_button span{display:none}#movie_signup.facebook a{color:#fff;text-decoration:underline}#movie_signup_button{background-color:#777;color:#fff;font-size:14px;font-weight:700;padding:4px 20px;margin-left:10px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}#movie_signup_button:hover{background-color:#aaa}#movie_signup_form{background-color:#ddd;border:2px solid #fff;border-bottom:none;color:#aaa;font-size:12px;padding-bottom:5px;margin-bottom:-30px}#movie_signup_form h2{color:#107fc9;font-size:20px;margin:0;padding:12px 0;text-align:center}#movie_signup_form h2 strong{color:#888;display:block;font-size:16px}#signup_form_message{color:red;font-weight:700;font-size:12px;line-height:14px;height:20px;text-align:center}#email,#username,#password1{border:1px solid #ccc;display:block;font-size:16px;margin:8px auto;padding:6px 8px;width:240px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}#email.error,#username.error,#password1.error{border-color:red}#movie_signup_form .placeholder{color:#aaa}#tos_link{color:#61b9e7;text-decoration:none}#tos_link:hover{text-decoration:underline}#movie_main{padding:30px 68px 10px;position:relative;display:inline-block}#movie_main h2{color:#333;font-size:18px;padding:0;margin:0 0 10px}#movie_main h2 span{font-size:70%;padding-left:20px}#movie_main .column1{float:left;width:685px}#movie_main .column2{float:right;width:180px;margin-left:15px}#movie_main .column2 h2{font-size:16px}#movie_suggested{margin-bottom:20px}#movie_main #comments{width:100%;padding-bottom:10px;border-bottom:1px dashed #333}#movie_main #nocomments{text-align:center}.comment{background-color:#fff;border-top:1px dashed #333;padding-top:10px;margin-top:10px;clear:both;overflow:hidden}.comment:hover{background-color:#e9e9e9}.comment .pic{float:left;position:relative;margin-right:20px;text-align:center;width:62px}.comment .pic img{border:1px solid gray}.comment .pic .plusLabel60 img{border:none}.comment .message{float:left;width:600px}.movies_slider_container{width:700px;overflow:hidden}.movies_slider{list-style-type:none;overflow:hidden;width:700px;padding:10px 0}.movies_slider li{float:left;margin-right:7px}.movies_slider li a{display:block;border:1px solid #333;width:105px;height:68px}.movie_thumb_img{width:105px;height:67.87px}#movie_like_container ul{list-style-type:none}#movie_like_container ul li{clear:both;margin-bottom:3px;position:relative}#movie_like_container ul li .name{float:left;padding-top:20px;width:95px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}#movie_like_container ul li .user_thumbnail{border:1px solid #333;width:60px;height:60px;float:left;margin-right:10px}.movieAdRightCol{width:300px;margin:10px auto}#movie_youtube_export_start,#movie_youtube_export_started{font-size:16px;height:360px;padding-top:40px}#movie_youtube_export_message .tokenError,#movie_youtube_export_message .NoLinkedYouTubeAccount{color:red;font-weight:700;display:none}#youtube_overlay_ad{background:transparent url(https://flashthemes.net/static/ft/img/movie/ad_yt_export.png) no-repeat 0 0;position:absolute;height:312px;width:342px;text-align:center}#youtube_overlay_ad h2{color:#000;font-size:18px;margin:0;padding:20px 0}#youtube_overlay_ad h2 strong{color:#ff7800}#youtube_overlay_ad .close{background:transparent url(https://flashthemes.net/static/ft/img/movie/ad_btn_close.gif) no-repeat 0 0;position:absolute;top:12px;right:12px;height:9px;width:10px}#youtube_overlay_ad .close:hover{background-position:0 -9px}#youtube_overlay_ad .close span{display:none}.movie_vote{transition:all .3s ease-out;-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;font-family:arial black,Gadget,sans-serif;-moz-border-radius:6px;-webkit-border-radius:6px;-khtml-border-radius:6px;border-radius:6px;border:1px solid #444;text-align:center;font-size:12px;margin:10px 2px 15px;font-style:italic;width:23px;height:23px;float:left;line-height:23px;position:relative;background:#333;cursor:pointer}.movie_vote a{color:#fff}.movie_vote:hover{background:#48979a;border:#48979a 1px solid}.counted{background:#306567;border:#306567 1px solid}.voted{background:#222;border:#222 1px solid}.voted a{color:#666}.voted:hover{background:#222;border:#222 1px solid}.movie_vote_small_text{font-family:arial,Gadget,sans-serif;position:relative;top:18px;color:#666;font-weight:700;font-size:10px;font-style:normal}.movie_vote_small_text.hundred{color:#e19d3c}.movie_vote_small_text.k{color:#df390c}.recommend_num.hundred{color:#e19d3c}.recommend_num.k{color:#df390c}.movie_vote_facebook{-moz-border-radius:3px;-webkit-border-radius:3px;-khtml-border-radius:3px;border-radius:3px;width:590px;background:#222;padding-bottom:10px}.text_boxes_container{position:relative;left:15px;height:43px;width:575px}.text_boxes{float:left;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;-khtml-border-radius:4px;-border-radius:4px;background:#fff;width:430px;height:38px;font-size:12px;font-weight:700;color:#000;resize:none;border:0;padding:2px}.facebook_share{float:left;background:url(https://flashthemes.net/static/ft/img/movie/btn_fb_share.gif) no-repeat center 50%;width:56px;height:20px;padding:12px 2px}.twitter_share{float:left;background:url(https://flashthemes.net/static/ft/img/movie/btn_tw_tweet.gif) no-repeat center 50%;width:55px;height:20px;padding:12px 3px}.text_limit_warning{font-size:12px;color:#ff7000;padding-left:15px}.movie_vote .tooltip{position:absolute;z-index:100;top:-28px;left:-49px;width:110px;text-align:center;background:#111;border-radius:5px;padding:1px 5px;font-size:12px;font-style:normal;font-family:arial,Gadget,sans-serif;display:none}.movie_vote .tooltip:before{content:"";position:absolute;top:20px;left:50px;border-right:10px solid #111;border-bottom:10px solid transparent}.movie_vote .tooltip:after{content:"";position:absolute;top:20px;left:60px;border-left:10px solid #111;border-bottom:10px solid transparent}.movie_vote:hover .tooltip{display:block}#inappropriate .tooltip{position:relative;z-index:100;top:-28px;left:-60px;width:130px;text-align:center;background:#111;border-radius:5px;padding:5px;margin:auto;font-size:12px;font-style:normal;font-family:arial,Gadget,sans-serif;display:none}#inappropriate .tooltip:before{content:"";position:absolute;top:20px;left:60px;border-right:10px solid #111;border-bottom:10px solid transparent}#inappropriate .tooltip:after{content:"";position:absolute;top:20px;left:70px;border-left:10px solid #111;border-bottom:10px solid transparent}#inappropriate:hover .tooltip{display:block}.seperator{float:left;color:#666;padding:11px 0;font-size:16px}.vote_bar_comment{padding:13px 2px;float:left;color:#aaa;font-size:12px;font-weight:700;font-style:italic}.recommend_num{color:#666;font-size:10px;width:100%;position:absolute;top:23px;text-align:center}.movie_signup_continer{-moz-border-radius:3px;-webkit-border-radius:3px;-khtml-border-radius:3px;border-radius:3px;width:570px;background:#222;padding-bottom:10px;font-family:arial,Gadget,sans-serif;font-size:14px;word-spacing:3px}.movie_vote_signup{padding:30px;text-align:center}.movie_vote_signup a{-moz-border-radius:15px;-webkit-border-radius:15px;-khtml-border-radius:15px;border-radius:15px;background-color:#306567;color:#fff;padding:5px 25px}.movie_vote_signup a:hover{background:#48979a}.box_close{font-family:arial black,Gadget,sans-serif;color:#fff;font-weight:700;font-size:20px;line-height:20px;text-align:right;padding:0 5px;cursor:pointer}
+</style>
 <title>FlashThemes - Make your own cartoons and animations easily.</title>
-<link rel="icon" href="/static/ft/favicon.ico">
 <meta property="description" content="FlashThemes is a way to easily create animations and share with the world! You can play around with funny themes.">
 <meta property="keywords" content="Animation, flash free, web 2.0, cartoon, comics, create animations free, comedy, drag and drop, flashthemes">
 <meta name="author" content="FlashThemes">
@@ -19,43 +20,16 @@
     view_name = "ft",
     user_cookie_name = "ftcookie";
 </script>
-<link rel='stylesheet' href='/static/ft/css/globalnew.css?l=en_US&v=2' type='text/css'>
-<link rel='stylesheet' href='/static/ft/css/headernew.css' type='text/css'>
-<link href="/static/ft/css/DroidSans.css" rel="stylesheet" type="text/css">
-<link href="/static/ft/css/overlay.css" rel="stylesheet" type="text/css">
-<link href="/static/ft/css/buttons.css" rel="stylesheet" type="text/css">
-<link href="/static/ft/css/signup.css" rel="stylesheet" type="text/css">
-<script src="/static/ft/js/create.js"></script>
-<script src="/static/ft/js/image.js"></script>
-<script src="/static/ft/js/swfobject.js"></script>
-<script src="/static/ft/js/overlay.js"></script>
-<script src="/static/ft/js/gotabs.js"></script>
-<script src="/static/ft/js/index.js"></script>
-<script src="/static/ft/js/init.js"></script>
-<script src="/static/ft/js/go2.js"></script>
-<script src="/static/ft/js/overlay.js"></script>
-<script src="/static/ft/js/cookie.js"></script>
-<script src="/static/ft/js/Gettext.js"></script>
+<style>
+	.clearfix:after{clear:both;visibility:hidden;line-height:0;height:0}.clearfix{display:inline-block}html[xmlns] .clearfix{display:block}* html .clearfix{height:1%}:focus{outline:0}html{margin:0;padding:0;min-height:100%;scroll-behavior:smooth}body{margin:0 auto;background-color:transparent;font:12px Trebuchet MS,Tahoma,sans-serif;min-height:100%;background-repeat:repeat-x}img{border:none}p{margin:0 0 8px;padding:0}textarea{font-family:Trebuchet MS,Tahoma,sans-serif}p.contest{margin:0 100px 0 20px}div.container{margin:0 auto;width:1016px;background-color:#fff;position:relative;z-index:0;border-radius:15px 15px 0 0}a{color:#1b619b;cursor:pointer;text-decoration:none}a:hover,a:active{color:#7bb1de;text-decoration:none}ul{margin:0;padding:0}ol{margin:0;padding:0}.footernav ul li,.browse ul li,.lang_filter ul li,.sharing_buttons ul li{display:block;float:left;margin:0;padding:0}hr{margin-top:15px;width:100%;border:none;height:1px;background-color:gray}div.rating{float:left;height:18px;overflow:hidden}.time{height:20px;line-height:20px;color:#6f6f6f}.count{font-size:10px;color:#6f6f6f;font-weight:700}div.left{float:left;width:550px;margin-bottom:50px}div.right{float:left;width:350px;margin:0 0 50px 18px}.roundtop{-webkit-border-top-left-radius:10px;-webkit-border-top-right-radius:10px;-moz-border-radius-topleft:10px;-moz-border-radius-topright:10px;border-top-left-radius:10px;border-top-right-radius:10px}div.content{background-color:transparent;clear:both;width:880px;margin:10px 50px 50px 30px;position:relative;z-index:0}h1{font-size:18px;color:gray;margin:0 0 10px;padding:0}h2{font-size:16px;color:gray;margin:0 0 10px;padding:0}h3{font-size:16px;color:gray;margin:0 0 10px;padding:0}h1 a:link,h1 a:visited,h1 a:hover,h1 a:active{font-size:16px;margin:0;padding:0}div.tabcontainer{padding:0}div.tabcontainer ul{list-style-type:none;height:25px}div.tabcontainer li{float:left;font-size:14px;font-weight:700;width:24%;padding:0;margin:0 1% 0 0}div.tabactive,div.tabinactive{background-color:#fff;color:#165b8a;cursor:pointer;text-align:center;-webkit-border-top-left-radius:5px;-webkit-border-top-right-radius:5px;-moz-border-radius-topleft:5px;-moz-border-radius-topright:5px;border-top-left-radius:5px;border-top-right-radius:5px}div.tabinactive{background-color:#666;color:#fff}div.tabactive div.tabc,div.tabinactive div.tabc{padding:5px 0}div.tabinactive a{color:#fff}div.tabinactive a:hover{color:#165b8a}div.tabbox{background-color:#fff;padding:10px 0;position:relative;-webkit-border-bottom-left-radius:5px;-webkit-border-bottom-right-radius:5px;-moz-border-radius-bottomleft:5px;-moz-border-radius-bottomright:5px;border-bottom-left-radius:5px;border-bottom-right-radius:5px}div.thumb{float:left;width:150px;margin:0 5px 10px}div.thumb a{font-size:14px}div.thumb div span{float:right;margin-right:10px}div.movie_thumb{float:left;height:97px;width:150px;position:relative}div.movie_thumb div.movie_overlay_status{width:150px;bottom:0;position:absolute;background-color:#800;color:#fff;font-weight:700;text-align:center}div.movie_thumb div.movie_overlay_status_private{background-color:#ffa200}div.movie_thumb div.movie_overlay_status_public{background-color:#0094ff}div.movie_thumb div.movie_overlay_status_draft{background-color:#a0a0a0}div.movie_thumb div.movie_overlay_status_processing{background-color:#a0a0a0}div.movie_overlay_frame{z-index:15;width:150px;height:97px;position:absolute;top:0;left:0}div.user_thumb{float:left;height:90px;width:90px}div.thumb_title{height:26px;line-height:26px;overflow:hidden}div.thumb_author{height:16px;line-height:16px;overflow:hidden}div.page_nav{clear:both;text-align:center;font-size:14px;width:fit-content;min-width:180px;float:right}div.page_nav span{display:block}div.page_nav span.next a:link,div.page_nav span.next a:visited{padding-right:20px;margin-right:20px;background:url(/static/ft/img/btn_arrow_next.gif) right -2px no-repeat;float:right}div.page_nav span.next a:hover,div.page_nav span.next a:active,div.page_nav span.next.disablednav a{color:#7bb1de;text-decoration:none;background:url(/static/ft/img/btn_arrow_next.gif) right -22px no-repeat}div.page_nav span.prev a:link,div.page_nav span.prev a:visited{padding-left:20px;background:url(/static/ft/img/btn_arrow_prev.gif) left -2px no-repeat;float:left}div.page_nav span.prev a:hover,div.page_nav span.prev a:active,div.page_nav span.prev.disablednav a{color:#7bb1de;text-decoration:none;background:url(/static/ft/img/btn_arrow_prev.gif) left -22px no-repeat}div.page_nav span.next.disablednav a,div.page_nav span.prev.disablednav a{cursor:default}div.calltoaction{float:left;clear:both;width:100%;padding-bottom:15px}div.create_action{padding-left:345px;width:190px}div.create_action a:link,div.create_action a:visited{display:block;float:left;width:190px;height:65px;background:url(/static/ft/img/v2/btn_create_02.gif) left top no-repeat}div.create_action a:hover,div.create_action a:active{background:url(/static/ft/img/v2/btn_create_02.gif) left -65px no-repeat}div.signup_action{padding-left:345px;width:190px}div.signup_action a:link,div.signup_action a:visited{display:block;float:left;width:190px;height:65px;background:url(/static/ft/img/v2/btn_sign_up_02.gif) left top no-repeat}div.signup_action a:hover,div.signup_action a:active{background:url(/static/ft/img/v2/btn_sign_up_02.gif) left -65px no-repeat}div.footer{clear:both;width:100%;background-color:#b5b5b5;border-top:2px solid #909090;padding:20px 0;position:relative}div.footernav{margin:0 auto;width:100%;text-align:center}div.footer_block{width:220px;height:150px;display:inline-block;border-right:1px solid #999}div.footer_block_text{width:220px;float:left;text-align:center;font-size:14px;padding-top:10px}div.footer_right_block{width:202px;display:inline-block}div.footer_right_block_text{width:200px;float:left;text-align:center;font-size:14px;padding-top:10px}div.right_top{background:url(/static/ft/img/v2/img_footer_block_top.gif) no-repeat;width:200px;height:10px;float:left}div.right_bottom{background:url(/static/ft/img/v2/img_footer_block_bottom.gif) no-repeat;width:200px;height:10px;float:left}div.right_mid{background-color:#f3f3f3;float:left;height:150px;width:200px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}div.footer_img{position:absolute;bottom:15px;right:35px}div.footer_bottom{margin:15px auto;width:1016px}div.footer_bottom div.footer_bottom_left{float:left}div.footer_bottom div.footer_bottom_right{float:right}div.footer_bottom div.footer_bottom_right div.copyright{color:#fff;font-weight:700;text-align:right}.footernav a:link,.footernav a:visited{color:#383838;font-weight:700}.footernav a:hover,.footernav a:active{background-color:#383838;color:#fff}div.footerad{width:960px;clear:both}.footer_cc_banner{display:block}.footer_cc_banner img{vertical-align:top}.signup_left{float:left;width:510px;margin:20px 0 50px;background:url(/static/ft/img/v2/signup_bg.gif) repeat-y left top}.signup_left .bottompic{float:left;background:url(/static/ft/img/v2/signup03.gif) no-repeat left bottom;padding-bottom:20px}.signup_left .signup_form{float:left;width:332px}.signup_left .leftpic{float:left;display:block;padding-left:178px;background:url(/static/ft/img/v2/signup01.gif) no-repeat left top}.signup_left .toppic{float:left;padding-top:145px;background:url(/static/ft/img/v2/signup02.gif) no-repeat left top}.signup_left .signup_form .label{float:left;width:110px;padding:4px 0 0 10px;color:#7c7c7c;font-weight:700;height:36px}.signup_left .signup_form .field{float:left;width:190px;text-align:right;font-size:10px;color:#9a9a9a;height:40px}.signup_right{float:left;width:335px;margin:70px 0 50px 30px;color:#7c7c7c;font-size:14px}.signup_right ul{margin:5px 0 15px 25px;line-height:35px}.loginbox{padding:0 20px 15px;background-color:#b5d7f0;color:#7c7c7c;width:295px;float:left}.loginbox p{margin-bottom:0}.logintitle{padding:15px 20px 0;background-color:#b5d7f0;color:#7c7c7c;width:295px;float:left}.loginbox .label{float:left;width:80px;padding:4px 0 0 10px;color:#7c7c7c;font-weight:700;height:26px;font-size:12px}.loginbox .field{float:left;width:190px;height:30px}.btn_sty{font:700 12px trebuchet ms,Verdana,Arial,Helvetica,sans-serif;color:#000;background:url(/static/ft/img/btn_bg.gif) repeat-x bottom #efd0b3;margin:0;height:24px;padding:2px 5px;border:1px solid #dbbb95;cursor:pointer}.btn_sty:hover{border:1px solid #f90}div#mainforumblock{float:left;width:600px}#faq{font-size:14px;color:#444;padding:10px;float:left;width:660px}#faq h2{font-size:18px;color:#000;padding:30px 0 0}#tableofcontents .sect{margin:0 50px;font-size:16px;line-height:200%}#tableofcontents h2{font-size:18px;color:#000;padding:30px 0 0 30px}#tableofcontents ul{color:#1b619b}.faqq{color:#fe9717;font-weight:700}.faqa{margin-bottom:20px}.faqa ul{margin-left:20px}div.rightpanel{width:250px;float:left}div.rightpanel div.blkvideo{padding:5px;color:#fff;font-size:1.3em;font-weight:700;background-color:#ff7800;margin-bottom:20px;overflow:auto}div.rightpanel div.blkfaq{margin-bottom:20px;background-color:#efefef;padding-bottom:10px;position:relative}div.rightpanel div.blktitle_img{color:#fff;width:200px;font-size:17px;top:8px;left:5px;position:absolute}div.rightpanel li{width:200px;margin-left:35px}div.rightpanel div.blkupdates{background-color:#efefef;padding-bottom:10px;margin-bottom:20px;position:relative}div.rightpanel div.blknew_img{color:#fff;width:35px;font-size:17px;top:15px;right:7px;position:absolute;text-align:center}div.rightpanel a.hoverUnderline:hover{text-decoration:underline}.announcement{border:2px solid #0070c0;text-align:center;font-size:16px;padding:10px 30px;width:806px;margin-top:30px;color:#0070c0}.announcehead{font-weight:700;font-size:18px}#career{font-size:14px;color:#444;padding:10px}#career ul{margin:20px}#career h2{color:#fe9717;font-weight:700}#pointsheader{position:relative;float:left;width:930px;padding:10px}#leftcontainer{float:left;width:690px;height:180px;margin-right:5px}#rightcontainer{float:left;width:200px;height:150px;padding:10px 20px 10px 10px;text-align:center;background:url(/static/ft/img/v2/user_points.gif) left top no-repeat}div#channel_overlay{position:absolute;top:45px;left:-317px;width:960px;height:434px;z-index:50}div.help_item{float:left;display:block;padding:8px;color:#fff;font-weight:700;background:transparent url(/static/ft/img/v2/graybar.gif) scroll right top}div.help_item:hover{background:url(/static/ft/img/v2/graybar.gif) scroll 0 -35px}div#help_overlay{position:absolute;top:25px;right:0;width:110px;z-index:50;overflow:visible}div#lang_overlay{overflow:visible;position:absolute;top:25px;right:0;width:110px;z-index:50}div#create_overlay{position:absolute;top:40px;left:0;width:780px;height:381px;z-index:50}.menumask{background-color:#1a1e22;height:100%;width:100%;filter:alpha(opacity=90);opacity:.9;padding-bottom:8px;-moz-border-radius-bottomleft:5px;-moz-border-radius-bottomright:5px;-webkit-border-bottom-left-radius:5px;-webkit-border-bottom-right-radius:5px;border-bottom-left-radius:5px;border-bottom-right-radius:5px}.createmask{background-color:#1a1e22;height:100%;width:100%;filter:alpha(opacity=90);opacity:.9}#createmaskleft{height:335px;left:6px;position:absolute;top:-358px;width:315px}#createmaskblank{background:transparent url(/static/ft/img/v2/emessage_blank_slate.gif) no-repeat scroll 20px 0;border-right:1px solid #5a5a5a;cursor:pointer;height:335px;padding:0 10px;width:290px}#createtitle{color:#fff;font-size:30px;left:472px;position:absolute;text-align:center;top:-358px}#createallmsg{font-size:14px;left:608px;position:absolute;text-align:right;top:-37px}div#createallmsg a:hover{color:#4aaac4}div#createallmsg a:active{color:#4aaac4}div#createallmsg a:link{color:#fff}div#createallmsg a:visited{color:#fff}#eMessage1{width:382px;height:112px;position:absolute;left:353px;top:-312px;background:transparent url(/static/ft/img/v2/emessage_banner01.gif) no-repeat scroll 0 0}#eMessage2{width:382px;height:112px;position:absolute;left:353px;top:-168px;background:transparent url(/static/ft/img/v2/emessage_banner02.gif) no-repeat scroll 0 0}#eMessage3{width:382px;height:112px;position:absolute;left:353px;top:-312px;background:transparent url(/static/ft/img/v2/emessage_banner03.gif) no-repeat scroll 0 0}#channelmenu{color:#fff;padding:13px 25px 10px;font-size:32px;position:absolute;top:-439px;left:0;width:939px}#createmenu{color:#fff;padding:13px 25px 10px;font-size:32px;position:absolute;top:-245px;left:0;width:900px}#helpmenu{color:#fff;width:105px;text-align:center}#langmenu{color:#fff;width:105px;text-align:center}.helpbox{width:110px;height:20px;padding-top:5px}div.helpitemlink a:link,div.helpitemlink a:visited{color:#fff}div.helpitemlink a:hover,div.helpitemlink a:active{color:#faa23c}.channelbox{background:transparent url(/static/ft/img/v2/channel_box_border.gif) no-repeat scroll left top;width:200px;height:59px;float:left;padding:4px;margin-right:25px;margin-bottom:23px}.channelbox a div{width:198px;height:59px}.channel_close{border:1px solid #fff;color:#fff;cursor:pointer;display:block;font-weight:700;height:17px;right:42px;position:absolute;text-align:center;top:12px;width:17px}div#channelsmc{background:transparent url(/static/ft/img/v2/i.jpg?v=1) no-repeat scroll -594px -80px;cursor:pointer}div#channelpt{background:transparent url(/static/ft/img/v2/i.jpg?v=1) no-repeat scroll -594px -316px;cursor:pointer}div#channelmt{background:transparent url(/static/ft/img/v2/i.jpg?v=1) no-repeat scroll -594px -139px;cursor:pointer}div#channelms{background:transparent url(/static/ft/img/v2/i.jpg?v=1) no-repeat scroll -594px -257px;cursor:pointer}div#channelct{background:transparent url(/static/ft/img/v2/i.jpg?v=1) no-repeat scroll -594px -198px;cursor:pointer}div#channelsf{background:transparent url(/static/ft/img/v2/i.jpg?v=1) no-repeat scroll -594px -375px;cursor:pointer}div#channelakon{background:transparent url(/static/ft/img/v2/i.jpg?v=1) no-repeat scroll -594px -434px;cursor:pointer}div#channelstartrek{background:transparent url(/static/ft/img/v2/banner_star_trek02.jpg) no-repeat scroll 0 0;cursor:pointer}div#channelwillienelson{background:transparent url(/static/ft/img/v2/Williechannelbanner01.jpg) no-repeat scroll 0 0;cursor:pointer}div#channelbunny{background:transparent url(/static/ft/img/v2/hb_channelbanner.jpg) no-repeat scroll 0 0;cursor:pointer}div#channeldomo{background:transparent url(/static/ft/img/v2/domo_channelbanner.jpg) no-repeat scroll 0 0;cursor:pointer}div#channelstf{background:transparent url(/static/ft/img/v2/stickfigurechannelbanner01.jpg) no-repeat scroll 0 0;cursor:pointer}div#channelfullene{background:transparent url(/static/ft/img/v2/fullenergychannelbanner01.jpg) no-repeat scroll 0 0;cursor:pointer}.columntitle{background:transparent url(/static/ft/img/v2/column_title.gif) no-repeat scroll left top;font-size:13px;color:#fff;font-weight:700;padding:12px 25px;height:22px;width:165px}.char_asset{text-align:center}div.signupbtn{width:176px;height:75px;float:right}div.signupbtn a:link,div.signupbtn a:visited{display:block;width:176px;height:75px;background:url(/static/ft/img/intro/btn_signup.png) no-repeat 0 0}div.signupbtn a:hover,div.signupbtn a:active{background:url(/static/ft/img/intro/btn_signup.png) no-repeat 0 -75px}div.overlayLoginClose a:link,div.overlayLoginClose a:visited{display:block;float:right;width:11px;height:11px;right:10px;top:10px;position:absolute;background:transparent url(/static/ft/img/v2/btn_close_login.gif) left top no-repeat}div.overlayLoginClose a:hover,div.overlayLoginClose a:active{background:transparent url(/static/ft/img/v2/btn_close_login.gif) left -11px no-repeat}div.overlaySignupClose a:link,div.overlaySignupClose a:visited{display:block;float:right;width:11px;height:11px;right:10px;top:10px;position:absolute;z-index:10;background:transparent url(/static/ft/img/v2/btn_close_signup.gif) left top no-repeat}div.overlaySignupClose a:hover,div.overlaySignupClose a:active{background:transparent url(/static/ft/img/v2/btn_close_signup.gif) left -11px no-repeat}div#registerBanner{position:relative;width:224px;height:135px}div#registerBanner div#para{position:absolute;top:42px;left:15px;width:200px;color:#151515;font-size:.9em}div#registerBanner div#signupButton{position:absolute;width:134px;height:46px;bottom:10px;right:10px;cursor:pointer}div.signupButtonNormal{background:url(/static/ft/img/v2/btn_signup.gif) left top no-repeat}div.signupButtonHover{background:url(/static/ft/img/v2/btn_signup.gif) left -46px no-repeat}div#slideshowBanner{position:relative;width:224px;height:135px;cursor:pointer;background:url(/static/ft/img/v2/homepage_slideshow.gif) left top no-repeat}div#slideshowBanner:hover{background:url(/static/ft/img/v2/homepage_slideshow.gif) left -135px no-repeat}div#gradbunnyBanner{position:relative;width:224px;height:135px;cursor:pointer;background:url(/static/ft/img/v2/homepage_graduation_banner.jpg) left top no-repeat}div.signupLink a:link,div.signupLink a:visited{background:0 0;color:#1b619b;text-decoration:none;font-weight:700;margin:0;display:inline;float:none;position:relative}div.signupLink a:hover,div.signupLink a:active{background:0 0;color:#7bb1de}div#overlayObjectGlobal{position:absolute;background:0 0;z-index:50;margin:auto;color:#000}.overlayHTMLul{display:block;padding:0 12px;height:45px}.overlayHTMLul li{list-style-type:none;float:left}div#domooverlay{display:none;z-index:50;position:absolute;width:461px;height:333px;top:100px;left:234px}div#domooverlay div#trybtn{position:absolute;width:461px;height:30px;top:164px;left:0;text-align:center}div#domooverlay div#closebtn{font-size:10px;background:url(https://web.archive.org/web/20110408223028im_/http://goanimate.com/static/domo/img/promotion/btn_close.png);position:absolute;width:15px;height:15px;top:80px;left:378px;cursor:pointer}div#domooverlay div#textpara{position:absolute;font-size:1.2em;color:#52720a;top:100px;left:60px;width:330px;text-align:center}div.overlay_header{float:left;width:500px;height:37px}div.overlay_header_title{position:absolute;left:10px;color:#fff;font-size:22px;height:25px;top:6px;width:400px;z-index:200}div.overlay_footer{float:left;width:500px;height:30px}div.overlayClose a:link,div.overlayClose a:visited{display:block;float:right;width:16px;height:16px;right:60px;top:12px;position:absolute;background:transparent url(/static/ft/img/dl_animation/btn_close_gray.png) left top no-repeat}div.overlayClose a:hover,div.overlayClose a:active{background:transparent url(/static/ft/img/dl_animation/btn_close_gray.png) left -16px no-repeat}div.overlay_tag_title{float:left;font-size:16px;font-weight:700;margin-top:15px;padding:9px 15px;text-align:center;width:450px;color:#333;background:transparent url(/static/ft/img/v2/img_ziczac_bg.gif) left top repeat-y}div.plusLabel60{position:absolute;width:27px;height:28px;top:34px;left:35px}div.plusLabel90{position:absolute;width:27px;height:28px;top:64px;left:65px}.centeredentity{float:left;width:100%;position:relative}.centeredentity_ul{clear:left;float:left;list-style:none;margin:0;padding:0;position:relative;left:50%;text-align:center}.centeredentity_ul_li{display:block;float:left;list-style:none;margin:0;padding:0;position:relative;right:50%}a.sitebtn{color:#fff}div.bottomlangbar{background-color:#606060;text-align:center;padding:.6em 0}div.bottomlangbar .element{margin-right:20px}div.bottomlangbar .element .selected{color:#000}div.bottomlangbar .element a{color:#dfdfdf}div.bottomlangbar .element a:hover{color:#000}div.growlUI h1,div.growlUI h2{color:#fff;padding:5px 5px 5px 75px;text-align:left;margin:0;font-family:trebuchet ms,verdana,arial}div#growlnotify,div#growlerror{width:52px;height:52px;display:none;float:left}div.growlcontent{width:290px;color:#fff;font-size:15px;float:right}div.growltitle{width:290px;font-weight:700;float:left}div#growlfeedback{padding-top:10px;width:290px;float:left}.badge_30{background:transparent url(/static/ft/img/badge/badges_30.png) no-repeat 0 0;display:block;height:30px;width:30px}.badge_50{background:transparent url(/static/ft/img/badge/badges_50.png) no-repeat 0 0;display:block;position:relative;height:50px;width:50px}.badge_50 .owned{background-color:#000;color:#fff;font-weight:11px;padding:0 2px;position:absolute;bottom:-3px;right:-3px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}.badge_100{background:transparent url(/static/ft/img/badge/badges_100.png) no-repeat 0 0;display:block;position:relative;height:100px;width:100px}.badge_dark_box,.badge_light_box{background:transparent url(/static/ft/img/badge/box_dark.png) no-repeat 0 0;padding:25px;height:100px;width:100px}.badge_dark_box{margin:10px auto}.badge_light_box{background-image:url(/static/ft/img/badge/box_light.png);float:left;margin:0 30px 0 0}#recaptcha{margin:10px auto}#recaptcha_area{margin:0 auto}.money{cursor:pointer}.points_submenu{display:none;background-color:#222;margin:0;padding:5px 0 10px;float:left;list-style:none;position:absolute;top:30px;left:0;text-align:center;width:133px;-webkit-border-bottom-left-radius:5px;-webkit-border-bottom-right-radius:5px;-moz-border-radius-bottomleft:5px;-moz-border-radius-bottomright:5px;border-bottom-left-radius:5px;border-bottom-right-radius:5px;z-index:10}.money:hover ul,.money.hover ul{display:block}.money .points_submenu li{background-color:#222;padding:0 10px;display:block;float:none;text-align:right}.points_submenu a:link,.points_submenu a:visited{color:#fff;font-size:12px;line-height:15px}.points_submenu a:hover,.points_submenu a:active{text-decoration:underline}.footerad_cast2{background:url(/static/ft/img/ad/banner_bg002.jpg) no-repeat 0 0}.footerad_cast3{background:url(/static/ft/img/ad/banner_bg003.jpg) no-repeat 0 0}.footerad_cast4{background:url(/static/ft/img/ad/banner_bg004.jpg) no-repeat 0 0}.footerad_cast5{background:url(/static/ft/img/ad/banner_bg005.jpg) no-repeat 0 0}.fb_request_overlay{background:transparent url(/static/ft/img/overlay/overlay_normal.png) no-repeat 0 0;position:relative;width:705px;height:495px}.fb_request_overlay .offer_content{position:absolute;left:20px;top:40px;width:660px}.fb_request_overlay .close_button{background:transparent url(/static/ft/img/overlay/btn_close.gif) no-repeat 0 0;display:block;height:14px;width:15px;position:absolute;top:20px;right:25px}.fb_request_overlay .close_button:hover{background-position:0 -14px}.fb_request_overlay .close_button span{display:none}.fb_request_overlay .post_to_profile{color:#3b5998;position:absolute;top:15px;left:25px}.fb_request_overlay .post_to_profile:hover{text-decoration:underline}#daily_game_overlay{background:transparent url(/static/ft/img/lucky_draw/bg.png) no-repeat 0 0;position:relative;height:533px;width:867px}#daily_game_overlay .close_button{background:transparent url(/static/ft/img/overlay/btn_close.gif) no-repeat 0 0;display:block;height:14px;width:15px;position:absolute;top:150px;right:65px}#daily_game_overlay .close_button:hover{background-position:0 -14px}#daily_game_overlay .close_button span{display:none}#daily_game_content{color:#0cf;font-size:16px;font-weight:700;margin:0 auto;width:480px;position:absolute;top:270px;left:165px}#daily_game_swf_container{margin-top:-40px}.overlaybox{background:transparent url(/static/ft/img/overlay/overlay_normal.png) no-repeat 0 0;position:relative;width:705px;height:495px}.overlaybox.large{background:transparent url(/static/ft/img/overlay/overlay_large.png) no-repeat 0 0;position:relative;width:805px;height:565px}.overlaybox.small{background:transparent url(/static/ft/img/overlay/overlay_small.png) no-repeat 0 0;position:relative;width:498px;height:350px}.overlaybox h1,.overlaybox.large h1{color:#333;font-size:22px;font-weight:700;margin:0 25px 20px;padding:20px 0 0;text-align:left}.overlaybox .close_button,.overlaybox.large .close_button,.overlaybox.small .close_button{background:transparent url(/static/ft/img/overlay/btn_close.gif) no-repeat 0 0;display:block;height:14px;width:15px;position:absolute;top:20px;right:25px}.overlaybox .close_button:hover,.overlaybox.large .close_button:hover,.overlaybox.small .close_button:hover{background-position:0 -14px}.overlaybox .close_button span,.overlaybox.large .close_button span,.overlaybox.small .close_button span{display:none}.overlaybox .box{position:relative;margin:20px auto 0;width:600px}.overlaybox .box_footer{background:transparent url(/static/ft/img/overlay/long_bar.png) no-repeat center 0;color:#fff;font-size:18px;padding-top:10px;position:absolute;height:49px;width:705px;bottom:0;left:0}.overlaybox .box_footer a{color:#ff7200}.overlaybox .box_footer a:hover{text-decoration:underline}#claim_badge_overlay{color:#333;font-size:14px;text-align:center}#claim_badge_overlay h1{color:#09f;font-size:28px;padding:30px 0 0;text-align:center}#claim_badge_overlay h2{color:#333;font-size:28px;margin:20px auto}#claim_badge_overlay .gp,#claim_badge_overlay .xp{background:transparent url(/static/ft/img/icons/icon_xp.png) no-repeat 0 center;float:left;position:relative;height:60px;padding:45px 0 45px 70px}#claim_badge_overlay .gp{background-image:url(/static/ft/img/icons/icon_gopoint.png);margin-right:30px}#claim_badge_overlay .points{color:#ff4800;font-size:24px;font-weight:700;line-height:60px}#claim_badge_overlay .gp .points{color:#0067fe}#claim_badge_overlay .desc{display:none;background-color:#09f;color:#fefefe;font-size:11px;padding:10px 15px;position:absolute;bottom:105px;left:-110px;text-align:left;width:250px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;z-index:10}#claim_badge_overlay .desc .arrow{background:transparent url(/static/ft/img/dashboard/ico_arrow_02.gif) no-repeat 0 0;position:absolute;height:8px;width:15px;bottom:-8px;left:50%;margin-left:-8px}#claim_badge_overlay .gp:hover .desc,#claim_badge_overlay .xp:hover .desc{display:block}#claim_badge_overlay .buttonfacebook,#fb_connect_overlay .buttonfacebook,#tts_landing_overlay .buttonfacebook{background-image:url(/static/ft/img/icons/icon_fb.png);background-position:20px center;background-repeat:no-repeat}#claim_badge_overlay .buttontwitter{background-image:url(/static/ft/img/icons/icon_twitter.png);background-position:20px center;background-repeat:no-repeat}#fb_connect_overlay h1{color:#0f5ab8;text-align:center;margin-bottom:0}#fb_connect_overlay .box{margin-top:10px}#tts_landing_overlay{font-size:14px}#tts_landing_overlay h1{color:#165b8a;padding-top:40px;margin-bottom:10px;text-align:center}.tts_image_block{background-color:#bdd066;padding:10px;margin:30px auto;width:140px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px}.tts_image_block img{display:block;margin:10px auto}#comments_page_number,#latestanim_page_number,#userrecentmovies_page_number,#userrecommend_page_number,#movies_page_number,#users_page_number,#shop_page_number{display:inline-block;margin:0 10px}body.timeset1,html.timeset1{background-image:url(/static/ft/img/index/fade.png),linear-gradient(#029df7,#01ffe7);background-color:#01ffe7;background-repeat:repeat-x}body.timeset2,html.timeset2{background-image:url(/static/ft/img/index/fade.png),linear-gradient(#64aff2,#8f41bb);background-color:#8f41bb;background-repeat:repeat-x}body.timeset3,html.timeset3{background-image:url(/static/ft/img/index/fade.png),linear-gradient(#016074,#00015e);background-color:#00015e;background-repeat:repeat-x}body.timeset4,html.timeset4{background-image:url(/static/ft/img/index/fade.png),linear-gradient(#000c52,#0026ff);background-color:#0026ff;background-repeat:repeat-x}
+	</style>
+<style>
+	div.header{background-color:transparent;width:1016px;height:80px;position:relative;margin:0 auto;z-index:1}#header_underlay{display:none}div.logo{position:absolute;top:18px;left:18px}#gologo{display:block}#gologo img{vertical-align:top;height:55px}#headertopnavmenu{position:absolute;top:0;right:0;width:700px;z-index:10}#headertopnavmenu a{color:#fff;font-weight:700}#headertopnavmenu a:hover{color:#ff7000;text-decoration:underline}.header_block{color:#fff;float:right;margin-left:10px}#top_nav{background-color:#333;list-style:none;-webkit-border-bottom-left-radius:5px;-webkit-border-bottom-right-radius:5px;-moz-border-radius-bottomleft:5px;-moz-border-radius-bottomright:5px;border-bottom-left-radius:5px;border-bottom-right-radius:5px}#top_nav .top_nav_item{float:left;padding:10px 0;position:relative}#top_nav .top_nav_item a{display:block;height:14px;line-height:14px;padding:0 15px;border-right:2px solid #666}* html #top_nav .top_nav_item a{display:inline-block}#top_nav .top_nav_submenu{display:none;background-color:#244650;margin:0;padding:5px 0;float:left;list-style:none;position:absolute;top:34px;left:0;text-align:center;width:125px;-webkit-border-bottom-left-radius:5px;-webkit-border-bottom-right-radius:5px;-moz-border-radius-bottomleft:5px;-moz-border-radius-bottomright:5px;border-bottom-left-radius:5px;border-bottom-right-radius:5px}* html #top_nav .top_nav_submenu{top:38px;width:110px}#top_nav li:hover ul,#top_nav li.hover ul{display:block}#top_nav .top_nav_submenu li{background-color:#244650;padding:0 10px;display:block;float:none}#top_nav .top_nav_submenu li.first{position:relative}#top_nav .top_nav_submenu li .arrow:before{content:"";position:absolute;border:7px solid transparent;border-bottom:8px solid #244650;top:-20px;left:15px}#top_nav .search ul{left:auto;right:0;width:150px}#top_nav_search_icon{background:transparent url(/static/ft/img/header/img_magnifier.gif) no-repeat 0 0;height:19px;width:19px;margin-top:-4px}#top_nav_search_icon:hover{background-position:0 -19px}#top_nav .create{background-color:#5ba5be;-webkit-border-bottom-right-radius:5px;-moz-border-radius-bottomright:5px;border-bottom-right-radius:5px}#top_nav .search a,#top_nav .create a{border:none}#top_nav .search a{width:19px;height:19px}#top_nav .top_nav_submenu a{display:block;padding:4px 0;border:none;text-align:left;height:fit-content}* html #top_nav .top_nav_submenu a{display:block;padding:4px 0;border:none;text-align:left}#searchbar{margin-left:49px;margin-bottom:-3px;width:0;position:relative;top:-19px;border:2px solid #333;outline:2px solid #333;transition:1s;padding:0;background-color:#333;color:#fff}#top_nav .top_nav_item.search{height:0}#top_nav a.alert{color:#dc143c}#header_links{padding:8px 0}#header_links a{color:#ccc}#header_fb_connect{background:transparent url(/static/ft/img/fb/ico_fb.gif) no-repeat 0 center;padding-left:18px}#header_discord_login{background:transparent url(/static/ft/img/common/ico_discord.png) no-repeat 0 center;padding-left:22px}#top_nav_points,#top_nav_bucks{background-color:#a0a0a0;border:1px solid #fff;color:#fff;float:left;font-size:14px;position:relative;padding:0 6px 0 14px;margin:8px 0 0 18px;height:16px;line-height:16px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}#top_nav_points .icon,#top_nav_bucks .icon{background:transparent url(/static/ft/img/dashboard/ico_point.png) no-repeat 0 0;position:absolute;top:-4px;left:-15px;height:24px;width:24px}#top_nav_bucks .icon{background-position:0 -96px}#searchForm{margin:0;padding:0}#criteria{border:none;color:#fff;background-color:#15333d;padding:5px;margin:5px 0;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;width:120px}div.header_shadow{height:10px;width:960px}#feedback_block{padding:5px 14px 0}#feedback_block div{padding:5px;text-decoration:none;font-size:14px;font-weight:700}#feedback_block div.info{color:#576b9d;background-color:#eaedf5;border:1px #576b9d solid}#feedback_block div.error{color:#c03;background-color:#f0dce1;border:1px #c03 solid}#header_alert{background-color:#244650;padding:5px;position:absolute;bottom:0;right:15px;-webkit-border-top-left-radius:5px;-webkit-border-top-right-radius:5px;-moz-border-radius-topleft:5px;-moz-border-radius-topright:5px;border-top-left-radius:5px;border-top-right-radius:5px}#header_alert a{color:#fff;font-weight:700;margin:0 5px;padding-left:25px}#header_alert a:hover{text-decoration:underline}#header_new_badge{background:transparent url(/static/ft/img/common/icon_new_badge.png) no-repeat center left}#header_new_message{background:transparent url(/static/ft/img/common/icon_new_msg.png) no-repeat center left}
+</style>
 
-<script src="/static/ft/js/jquery/jquery.js"></script>
-<script src="/static/ft/js/jquery/jquery.swfobject.min.js"></script>
-<script src="/static/ft/js/jquery/jquery.blockUI.js"></script>
-<script defer="" src="/static/ft/js/pngfix.js"></script>
-<script src="https://flashthemes.net/static/ft/js/jquery/jquery.placeholder.min.js"></script>
-<script src="/static/ft/po/ftserver_js-en_US.json"></script>
-<script type="text/javascript">
-    jQuery.flash.expressInstall = "/static/libs/expressInstall.swf";
-
-    var I18N_LANG = 'en_US';
-    var GT = new Gettext({
-        'locale_data': json_locale_data
-    });
-</script>
-<script src="/static/ft/js/ftfan.js?v=1"></script>
-<script src="https://cdn.socket.io/4.5.0/socket.io.min.js" integrity="sha384-7EyYLQZgWBi67fBtVxw60/OWl1kjsfrPFcaU0pp0nAh+i8FD068QogUvg85Ewy1k" crossorigin="anonymous"></script>
-<link rel="alternate" href="https://flashthemes.net/ajax/rss/WhatsNew" type="application/rss+xml" title="FlashThemes - Recently Released Videos" />
-<link rel="alternate" href="https://flashthemes.net/ajax/rss/MostWatched" type="application/rss+xml" title="FlashThemes - Most Watched" />
-<link href="/static/ft/css/index.css" rel="stylesheet" type="text/css" />
+<style>
+div.content{clear:both;margin:0;position:relative;width:1016px;float:left}div.main_content{clear:both;margin:0 auto;width:930px}div#banner_container{background:url(/static/ft/img/index/bg_orange_cc2.jpg) left top no-repeat;font-family:trebuchet MS,arial;width:960px;min-height:400px;margin:0 auto;padding-bottom:15px;position:relative}div#banner_container_title{height:40px;width:960px;padding:20px 0 0;margin:0;text-align:center;color:#252525;font-size:32px;text-shadow:#333 1px 1px 1px}div#banner_container_subtitle{height:22px;width:960px;padding:0;margin:0;text-align:center;font-size:16px;font-weight:400}div.banner_container_demo a:link,div.banner_container_demo a:visited{display:block;margin:0;text-decoration:none;background:url(/static/ft/img/index/btn_demo.jpg) top left no-repeat;width:300px;height:54px;padding:140px 0 0;text-align:center;color:#ccc;font-size:14px}div.banner_container_demo a:hover,div.banner_container_demo a:active{background-position:0 -194px;color:#ff702b}div.banner_demo_container{padding:0 330px;width:300px;height:194px;margin-top:20px}div.banner_container_demo{width:300px;height:194px}div.banner_container_desc,div.banner_container_btn,div.banner_container_demo{font-size:14px;font-weight:400;text-align:center}div.banner_container_desc{margin-top:30px;width:960px;height:60px}div.banner_btn_container{float:left;padding:0 347px;margin:4px 0 15px}div.banner_container_btn{float:left;width:265px;height:40px}div.banner_container_btn a:link,div.banner_container_btn a:visited{display:block;text-decoration:none;background:url(/static/ft/img/index/btn_signup.gif) top left no-repeat;width:265px;height:26px;padding:7px 0;text-align:center;color:#fff;font-size:18px}div.banner_container_btn a:hover,div.banner_container_btn a:active{background-position:0 -40px}div#campaign_banner_container{background-color:#333;font-family:trebuchet MS,arial;width:1016px;height:425px;margin:0 auto;position:relative;border-radius:10px 10px 0 0}div#campaign_banner_container div.campaign_banner{margin:15px 0 25px;height:375px;position:relative}div#campaign_banner_container div.banner1{background:transparent url(/static/ft/img/index/mainbanner01.png) no-repeat 0 0}div#campaign_banner_container div.banner2{background:transparent url(/static/ft/img/index/march_madness2011/mainbanner02.jpg) no-repeat 0 0}div#campaign_banner_container div.banner3{background:transparent url(/static/ft/img/index/march_madness2011/mainbanner03.jpg) no-repeat 0 0}div#campaign_banner_container div.campaign_banner div.watch_video a:link,div#campaign_banner_container div.campaign_banner div.watch_video a:visited{position:absolute;top:33px;left:452px;width:167px;height:41px;background:transparent url(/static/ft/img/index/march_madness2011/btn_demo.gif) no-repeat 0 0}div#campaign_banner_container div.campaign_banner div.watch_video a:active,div#campaign_banner_container div.campaign_banner div.watch_video a:hover{background:transparent url(/static/ft/img/index/march_madness2011/btn_demo.gif) no-repeat 0 -41px}#index_signup{color:#555;position:absolute;top:10px;right:10px;width:300px}#index_signup_form h2{margin:0;padding:60px 0 0;text-align:center}#signup_form_message{color:red;font-weight:700;font-size:12px;line-height:14px;height:16px;text-align:center}#email,#username,#password1,#password2{border:1px solid #ccc;display:block;font-size:14px;margin:12px auto;padding:6px 8px;width:240px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}#email{margin-top:8px}#email.error,#username.error,#password1.error,#password2.error{border-color:red}#index_signup_form .placeholder{color:#aaa}.animate_now_area{width:920px;position:relative}.animate_now{width:678px;height:280px;background-repeat:no-repeat;background-position:left 8px;padding:7px 0 15px;float:left}.animate_now_right{background-position:left 8px;background-repeat:no-repeat;float:right;margin-top:7px;padding:0 6px;width:224px}#animate_now1{background-image:url(/static/ft/img/v2/main_td_bg_01.gif)}#animate_now3{background-image:url(/static/ft/img/v2/main_td_bg_03.gif)}#animate_now4{background-image:url(/static/ft/img/v2/main_td_bg_04.gif)}#animate_now5{background-image:url(/static/ft/img/v2/main_td_bg_05.jpg)}#animate_now6{background-image:url(/static/ft/img/v2/main_td_bg_06.gif)}.signup_block{float:left;width:400px;height:380px}.signupBtn{float:left;padding-top:150px;padding-left:136px;width:246px;height:88px}.createNowBtn{float:left;padding:150px 0 0 136px;width:246px;height:88px}#createNowBtn6{padding:150px 0 0 106px}.watchDemoBtn{float:left;padding:50px 0 0 151px;width:216px;height:44px}#watchDemoBtn6{padding:25px 0 0 121px}#watchDemoBtn1 a:link,#watchDemoBtn1 a:visited{display:block;width:216px;height:44px;background:url(/static/ft/img/v2/btn_watch_demo_01.gif) left top no-repeat}#watchDemoBtn1 a:hover,#watchDemoBtn1 a:active{background:url(/static/ft/img/v2/btn_watch_demo_01.gif) left -44px no-repeat}#watchDemoBtn3 a:link,#watchDemoBtn3 a:visited{display:block;width:216px;height:44px;background:url(/static/ft/img/v2/btn_watch_demo_03.gif) left top no-repeat}#watchDemoBtn3 a:hover,#watchDemoBtn3 a:active{background:url(/static/ft/img/v2/btn_watch_demo_03.gif) left -44px no-repeat}#watchDemoBtn5 a:link,#watchDemoBtn5 a:visited{display:block;width:216px;height:44px;background:url(/static/ft/img/v2/btn_watch_demo_05.gif) left top no-repeat}#watchDemoBtn5 a:hover,#watchDemoBtn5 a:active{background:url(/static/ft/img/v2/btn_watch_demo_05.gif) left -44px no-repeat}#watchDemoBtn6 a:link,#watchDemoBtn6 a:visited{display:block;width:216px;height:44px;background:url(/static/ft/img/v2/btn_watch_demo_06.gif) left top no-repeat}#watchDemoBtn6 a:hover,#watchDemoBtn6 a:active{background:url(/static/ft/img/v2/btn_watch_demo_06.gif) left -44px no-repeat}#advertisement_block1{float:left;padding:80px 0 0 130px;width:370px;height:299px}#advertisement_block3{float:left;padding-left:50px;width:400px;height:380px}.tabbox{height:555px}#staffpicks{height:215px;padding:8px 0}#content_block{float:left;font-family:Tahoma,Arial,sans-serif;font-size:11px;color:#333;padding-right:5px;padding-left:14px;padding-top:13px}#content_block span{color:#ff7800;font-weight:700;padding-right:20px}div.thumb{width:166px}div.thumb div span{float:right;margin-right:10px}div.thumb div.thumb_author,div.thumb div.thumb_title{clear:left;height:16px;line-height:16px;width:150px}.thumb_desc{margin:15px 0;height:34px;overflow:hidden}div.movie_views{background:transparent url(/static/ft/img/v2/viewed_icon.gif) no-repeat scroll 0 -5px;font-size:12px;color:#7bb1de;float:left;height:35px;padding:3px 0 0 32px;margin-left:5px;width:43px;overflow:hidden}div.wideleft{float:left;width:582px;margin-bottom:10px;padding-left:5px}div.narrowright{float:left;width:320px;margin:0 0 50px 18px}.rating{padding-right:5px;border-right:1px solid lightgrey}h1{color:#000;font-size:20px;font-weight:400;padding:0 0 10px 20px}.survey_block{position:relative;height:165px;background:url(/static/ft/img/v2/bg_survey.gif) no-repeat scroll 0 0}.surveybtn a:link,.surveybtn a:visited{display:block;width:140px;height:30px;position:absolute;bottom:33px;right:16px;background:url(/static/ft/img/v2/btn_survey.gif) no-repeat 0 0}.surveybtn a:hover,.surveybtn a:active{background:url(/static/ft/img/v2/btn_survey.gif) no-repeat 0 -30px}.iblock{position:relative;border-top:1px solid lightgrey;padding:10px 0;margin-bottom:20px}.iblock .title{position:absolute;top:-10px;left:10px;background-color:#fff;color:orange;font-weight:700;font-size:14px}#movielist{margin-bottom:20px}.rss_icon{background:transparent url(/static/ft/img/v2/icon_rss_index.jpg) no-repeat scroll 0 0;cursor:pointer;display:block;float:left;height:19px;margin:5px 100px 0 0;width:72px}#feedblock{background-color:#e9e9e9;padding:5px 5px 10px}#topfeed{background-color:#f3f3f3;padding:20px 10px}#sharead{border:1px solid lightgrey;padding:10px;margin-bottom:30px}.contesthead{font-weight:700;color:#1b619b}.sicon{float:left;width:100px;height:40px}div.chb{width:115px;height:238px;float:left;cursor:pointer}div.adb{margin-right:40px;height:39px;float:left}#fb{background:transparent url(/static/ft/img/v2/i.jpg) no-repeat scroll -400px 0}#digg{background:transparent url(/static/ft/img/v2/i.jpg) no-repeat scroll -100px 0;margin-left:15px}#red{background:transparent url(/static/ft/img/v2/i.jpg) no-repeat scroll -200px 0;margin-left:30px}#su{background:transparent url(/static/ft/img/v2/i.jpg) no-repeat scroll -300px 0;margin-left:15px}#ms{background:transparent url(/static/ft/img/v2/i.jpg) no-repeat scroll -500px 0;margin-left:45px}#icio{background:transparent url(/static/ft/img/v2/i.jpg) no-repeat scroll 0 0;margin-left:20px}div#jtw_widget1{width:320px;height:500px;overflow:auto;overflow-x:hidden;background:#eee}div.cause_div{margin-bottom:20px;position:relative;text-align:center}div.playerbuilder_div{width:365px;height:140px}div.playerbuilder_div a:link,div.playerbuilder_div a:visited{float:left;margin-left:-7px;width:365px;height:130px;background:url(/static/ft/img/v2/playerbuilder_banner.gif) no-repeat 0 0}div.playerbuilder_div a:active,div.playerbuilder_div a:hover{background-position:0 -130px}div.tabcontainer{border-bottom:1px solid #ccc;width:100%}div.tabcontainer li{width:21%}div.tabactive{margin-bottom:-1px}div.tabinactive{margin-bottom:1px}div.tabactive{border:1px solid #ccc;border-bottom:1px solid #fff}div.tabbox{border:1px solid #ccc;border-top:none;margin-top:-3px}#peepz_banner{background:transparent url(/static/ft/img/index/small_banner_lil_peepz.jpg) no-repeat 0 0;color:#fff;display:block;font-size:16px;font-weight:700;line-height:18px;position:relative;height:95px;width:582px;margin-bottom:20px}#peepz_banner span{display:block;position:absolute;bottom:5px;right:20px;width:150px;text-align:center}#halloween_banner{background:transparent url(/static/ft/img/index/small_banner_contest_halloween.jpg) no-repeat 0 0;display:block;height:150px;width:582px;margin-bottom:20px}.rssplayer{height:439px;border:#fff 2px solid;outline:1px solid #b6b6b6;background-color:#e1e1e1;position:relative}#THEACTUALRSSPLAYER{position:relative}.playvideobutton{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}.playvideobutton:hover{filter:brightness(150%)}#videotitle{text-align:left;position:absolute;left:15px;top:-3px;font-size:25px;font-weight:bolder}#videotitle a{color:#000;font-size:20px;font-weight:bolder}#videotitle a:hover{color:#ff7800}.views{float:right;padding-left:20px;height:14px;line-height:14px;padding-right:7px;background:transparent url(https://flashthemes.net/static/ft/img/profile/ico_view.png) no-repeat 0 0}.info{font-size:13px;position:absolute;bottom:6px;text-align:left;padding:0 15px;width:543px}.rssmovies{width:559px;height:66px;border:#b6b6b6 1px solid;padding:16.5px 0}.rssmoviesunder{width:561px;background-color:#b6b6b6;height:9px;border-radius:0 0 10px 10px}.rssmovie{float:left;margin:0 2px;width:100px;height:66px;background-size:100% 100%;overflow:hidden;box-shadow:0 0 66px #000 inset;outline-offset:-3px}.rssmovie:hover{box-shadow:none}.rssmovie.active{box-shadow:none;outline:3px solid #ff7800}.rssmovies>a{float:left}.rssmovies>a.fuckkkkkk{float:right}#rssmovies{float:left}.rsspagingprev,.rsspagingnext{float:left;width:19.5px;height:66px;background-position:0 0;background-repeat:no-repeat}.rsspagingprev:hover,.rsspagingnext:hover{background-position-y:-66px}.rsspagingprev.disabled,.rsspagingnext.disabled,.rsspagingprev.disabled:hover .rsspagingnext.disabled:hover{background-position-y:0;filter:brightness(150%)}.rsspagingprev{background-image:url(/static/ft/img/rssplayer/rsspagebuttons.png)}.rsspagingnext{background-image:url(/static/ft/img/rssplayer/rsspagebuttons.png);background-position-x:right}.rssendscreen{width:550px;height:384px;background-color:#262626;background-image:url(/static/ft/img/rssplayer/endscreenbg.png);position:relative;top:-411px}.youjustwatched{max-width:375px;background-color:#d0d0d030;text-align:left;border-radius:10px;position:relative;top:125px;padding:10px}.youjustwatched h1{margin:10px 0 0;width:fit-content;max-width:375px;overflow-x:hidden;white-space:normal;text-overflow:ellipsis;padding:0;color:#ddd}h1.youjustwatchedtext{margin:0;color:#bbb}.endscreenbuttons{height:72px;width:fit-content;position:absolute;top:280px;left:50%;transform:translateX(-50%)}.endscreenbuttons>a{float:left;color:#fff;font-size:16px}.endscreenbuttons>a:hover{color:#ff912f}.endscreenbutton{background-color:#696969;width:72px;height:72px;margin:0 16px;border-radius:10px;border:#fff 2px solid;color:#fff;font-size:60px}#replaybutton .endscreenbutton{background-image:linear-gradient(#ffffffdd,#ffffff00),url(/static/ft/img/rssplayer/replaybutton.png)}#sharebutton .endscreenbutton{background-image:linear-gradient(#ffffffdd,#ffffff00),url(/static/ft/img/rssplayer/sharebutton.png)}#nextbutton .endscreenbutton{background-image:linear-gradient(#ffffffdd,#ffffff00)}.endscreenbuttons>a:hover>.endscreenbutton{filter:brightness(125%);color:#fff}
+</style>
 </head>
 <body onresize="">
 <script>
@@ -95,17 +69,17 @@
 <div id="headertopnavmenu" class="globalnav">
 <ul id="top_nav" class="header_block">
 <li class="top_nav_item explore">
-<a href="/watch">Explore</a>
+<a href="/error.html">Explore</a>
 <ul class="top_nav_submenu">
 <li class="first">
-<div class="arrow"></div><a href="/watch">Animations</a>
+<div class="arrow"></div><a href="/error.html">Animations</a>
 </li>
-<li><a href="/mingle">Community</a></li>
-<li><a href="/contest">Contests</a></li>
+<li><a href="/error.html">Community</a></li>
+<li><a href="/error.html">Contests</a></li>
 </ul>
 </li>
 <li class="top_nav_item shop">
-<a href="/shop">Shop</a>
+<a href="/error.html">Shop</a>
 </li>
 <li class="top_nav_item search">
 <script>
@@ -125,7 +99,7 @@
               isopen = true;
             } else {
               if (!$('#searchbar').val() == "") {
-                window.location = `https://flashthemes.net/searchresults/?criteria=${encodeURIComponent($('#searchbar').val())}`
+                window.location = `error.html`
               } else {
                 $('#searchbar').blur()
                 $('#searchbar').removeAttr('style')
@@ -140,13 +114,13 @@
 <input type="text" id="searchbar" value="" placeholder="Search query">
 </li>
 <li class="top_nav_item create">
-<a href="/create">Create</a>
+<a href="/error.html">Create</a>
 </li>
 </ul>
 <div id="header_links" class="header_block">
-<a id="header_discord_login" href="https://discord.com/api/oauth2/authorize?client_id=1050514417894314125&redirect_uri=https%3A%2F%2Fflashthemes.net%2Fajax%2FdoDiscordSignIn&response_type=code&scope=identify%20email%20guilds">Discord Sign-in</a> -
-<a onclick="showSignup(250);">Sign Up</a> -
-<a href="javascript:void(0)" onclick="showLogin(250);">Login</a>
+<a id="header_discord_login" href="/error.html">Discord Sign-in</a> -
+<a href="/error.html">Sign Up</a> -
+<a href="/error.html">Login</a>
 </div>
 <!--[if lte IE 6]>
 <script type="text/javascript">
@@ -171,77 +145,6 @@ jQuery('.money').bind('mouseout', function(e) {
 
 
 <div class="content">
-
-<script type="text/javascript" async="" src="/static/ft/js/amplitude-4.1.1-min.gz.js"></script>
-<script type="text/javascript" src="/static/ft/js/go_amp.js.gz.js"></script>
-<script>
-  var playedvideo = 0;
-  (function() {
-
-      'use strict';
-
-      var studioMode = 'full',
-          themeName = 'whiteboard',
-          copiedId = '',
-          editType = null;
-
-      switch (studioMode) {
-          case 'full':
-              editType = AMPLITUDE_EVENT_PROPERTIES.VM_NEW;
-              break;
-          case 'edit':
-              editType = AMPLITUDE_EVENT_PROPERTIES.VM_EDIT;
-              break;
-          case 'copy':
-              editType = AMPLITUDE_EVENT_PROPERTIES.VM_COPY;
-              break;
-          case 'remix':
-              editType = AMPLITUDE_EVENT_PROPERTIES.VM_REMIX;
-              break;
-          default:
-              break;
-      }
-      if (editType !== null) {
-          $(window).on('amplitude_loaded', function() {
-              logAmplitudeEvent(AMPLITUDE_EVENT.LAUNCH_VM, {
-                  theme: themeName,
-                  edit_type: editType,
-                  video_id: '',
-                  copied_id: copiedId
-              }, {
-                  latest_vm_launched: AMPLITUDE_EVENT_PROPERTIES.LEGACY_VM,
-                  latest_vm_launched_legacy_date: '2019-08-23 15:36:05'
-              });
-          });
-      }
-  }());
-
-  // Amplitude interface for Flash player.
-  function logAmplitudeEvent(eventName, eventProperties, userData) {
-      if (typeof amplitude === 'object') {
-          if (eventName === AMPLITUDE_EVENT.WATCH_EMBED_VIDEO) {
-            if(playedvideo == 0){
-              var movieId;
-              if(eventProperties["embedded_video"])
-              {
-                  movieID = eventProperties["embedded_video"];
-              }
-                $.ajax({
-                  type: "POST",
-                  url: "/ajax/watchedVideo/" + movieID + "/",
-                  success: function(B) {
-                    playedvideo = 1;
-                  }
-                }) 
-            }
-          }
-          if (userData !== undefined) {
-              amplitude.getInstance().setUserProperties(userData);
-          }
-          amplitude.getInstance().logEvent(eventName, eventProperties);
-      }
-  }
-</script>
 <div id="campaign_banner_container">
 <div class="header_shadow"></div>
 <div class="campaign_banner banner1">
@@ -261,12 +164,12 @@ jQuery('.money').bind('mouseout', function(e) {
 <input type="password" id="password2" name="password2" value="" placeholder="Confirm Password" autocomplete="new-password">
 </div>
 <div style="padding-left:20px;margin-bottom:5px">
-<input type="checkbox" id="termsofuse" name="termsofuse" value="on"> <label for="termsofuse">I agree to the <a id="tos_link" href="/termsofuse" target="_blank">Terms of Use</a>.</label>
+<input type="checkbox" id="termsofuse" name="termsofuse" value="on"> <label for="termsofuse">I agree to the <a id="tos_link" href="/error.html" target="_blank">Terms of Use</a>.</label>
 </div>
 <input type="hidden" name="regsignup" value="1">
 <input type="hidden" name="lc" value="en_US" />
 <div>
-<a href="javascript:goSignup('signup');" class="buttonbase buttonblue dark" id="index_signup_submit" style="margin:15px auto;float:none;display:block;">
+<a href="/error.html" class="buttonbase buttonblue dark" id="index_signup_submit" style="margin:15px auto;float:none;display:block;">
 <div class="buttontitle">Create my account</div>
 </a>
 </div>
@@ -278,49 +181,36 @@ jQuery('.money').bind('mouseout', function(e) {
 <pre></pre>
 <embed src="/home_banner-en_US.swf?v=412" quality="high" bgcolor="#eeeeee" width="930" height="280" id="BannerContainer" FlashVars="version=412&initial_index=2&isUserLogined=Y" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflash" />
 <pre></pre>
-<script type="text/javascript">
-    var rssobj = {
-      "rssplayer_src_path": "/static/libs/rssplayer2013.swf",
-      "autostart": false,
-      "rsspath": "",
-      "movieOwnerId": "",
-      "userId": "",
-      "username": "",
-      "uemail": "",
-      "api_server": "https:\/\/flashthemes.net\/",
-      "isShowGetWidget": "1"
-    };
-  </script>
 <div class="wideleft">
 <div style="margin:0px 0 10px"></div>
 <div id="movielist">
 <div class="tabcontainer clearfix">
 <ul>
 <li>
-<div id="sptab" class="tabinactive" onclick="switchTheTabLol('sptab');">
+<div id="sptab" class="tabinactive" href="/error.html">
 <div id="sptabtextholder" class="tabc">
-<a id="sptablink" href="javascript:goVoid();">STAFF PICKS</a>
+<a id="sptablink" href="/error.html">STAFF PICKS</a>
 </div>
 </div>
 </li>
 <li>
 <div id="mrtab" class="tabinactive" onclick="switchTheTabLol('mrtab');">
 <div id="mrtabtextholder" class="tabc">
-<a id="mrtablink" href="javascript:goVoid();">MOST SHARED</a>
+<a id="mrtablink" href="/error.html">MOST SHARED</a>
 </div>
 </div>
 </li>
 <li>
-<div id="mptab" class="tabinactive" onclick="switchTheTabLol('mptab');">
+<div id="mptab" class="tabinactive" href="/error.html">
 <div id="mptabtextholder" class="tabc">
-<a id="mptablink" href="javascript:goVoid();">TOP ANIMATIONS</a>
+<a id="mptablink" href="/error.html">TOP ANIMATIONS</a>
 </div>
 </div>
 </li>
 <li>
-<div id="mvtab" class="tabinactive" onclick="switchTheTabLol('mvtab');">
+<div id="mvtab" class="tabinactive" href="/error.html">
 <div id="mvtabtextholder" class="tabc">
-<a id="mvtablink" href="javascript:goVoid();">MOST WATCHED</a>
+<a id="mvtablink" href="/error.html">MOST WATCHED</a>
 </div>
 </div>
 </li>
@@ -341,15 +231,15 @@ jQuery('.money').bind('mouseout', function(e) {
 <h1 id="endscreenowner"></h1>
 </div>
 <div class="endscreenbuttons">
-<a href="javascript:;" id="replaybutton">
+<a href="/error.html" id="replaybutton">
 <div class="endscreenbutton"></div>
 <div class="buttontext">Replay</div>
 </a>
-<a href="javascript:shareMovie();" id="sharebutton">
+<a href="/error.html" id="sharebutton">
 <div class="endscreenbutton" style="background-color: #fe6704;"></div>
 <div class="buttontext">Share</div>
 </a>
-<a href="javascript:;" id="nextbutton">
+<a href="/error.html" id="nextbutton">
 <div class="endscreenbutton">5</div>
 <div class="buttontext">Next Movie &gt;</div>
  </a>
@@ -371,261 +261,6 @@ jQuery('.money').bind('mouseout', function(e) {
 </div>
  <div class="rssmoviesunder"></div>
 </div>
-<script>
-                        var currenttabmovies = [];
-                        var currentmoviepage = 0;
-                        var timer;
-                        function startTimer() {
-                          function intervalfunc() {
-                              let timetill = $('#nextbutton').find('.endscreenbutton').text();
-                              if (timetill == 0) {
-                                clearInterval(timer)
-                                var ihate = currenttabmovies.findIndex(mhm => mhm.selected == 1) + 1;
-                                showPlayerLol(currenttabmovies[ihate])
-                              } else {
-                                $('#nextbutton').find('.endscreenbutton').text(--timetill);
-                              }
-                            }
-                            timer = setInterval(intervalfunc, 1000)
-                        }
-                        function Player_DoFSCommand(command) { 
-                          if (command == "stop") {
-                            setTimeout(() => {
-                              $('#endscreen').fadeIn(1000)
-                            },500);
-                            startTimer()
-                          }
-                        }
-                        function showPlayerLol(infostuff) {
-                          $('#THEACTUALRSSPLAYER').css('background', `#000 url('https://flashthemes.net${infostuff["thumburl"]}') no-repeat center center`)
-                          $('#THEACTUALRSSPLAYER').html('This content requires the Macromedia Flash Player 10.0.12. <a href="http://get.adobe.com/flashplayer/">Get Flash</a>')
-                          $('#videotitle').html(`<a href="/movie/${infostuff["id"]}">${infostuff["title"]}</a>`)
-                          $('#ownername').html(`By <a href="/user/${infostuff["ownerid"]}">${infostuff["owner"]}</a>`)
-                          $('#views').html(`${infostuff["views"]}`)
-                          $('#endscreen').hide()
-                          $('#endscreentitle').html(infostuff["title"])
-                          $('#endscreenowner').html(`By <a href="/user/${infostuff["ownerid"]}">${infostuff["owner"]}</a>`)
-                          $('#replaybutton').attr('href', `javascript:showPlayerLol(${encodeURI(JSON.stringify(infostuff))}); clearInterval(timer);`)
-                          $('#nextbutton').find('.endscreenbutton').text('5');
-                          clearInterval(timer)
-              
-                          var activeelem = $('.rssmovie.active');
-                          if (activeelem.length > 0) {
-                            var imtired = currenttabmovies.findIndex(mhm => mhm.id == activeelem.attr('id'));
-                            activeelem.removeClass('active');
-                            activeelem.parent().attr('href', `javascript:showPlayerLol(${encodeURI(JSON.stringify(currenttabmovies[imtired]))})`);
-                          }
-                          var ihate = currenttabmovies.findIndex(mhm => mhm.selected == 1);
-                          currenttabmovies[ihate]["selected"] = 0
-                          
-                          var imsodamntired = currenttabmovies.findIndex(mhm => mhm.id == infostuff["id"]);
-                          currenttabmovies[imsodamntired]["selected"] = 1
-                          
-                          if ($(`#${infostuff["id"]}`).length == 0) {
-                            rssMoviePage('next');
-                          }
-                          $('#nextbutton').attr('href', `javascript:showPlayerLol(${encodeURI(JSON.stringify(currenttabmovies[imsodamntired + 1]))}); clearInterval(timer);`)
-                          $(`#${infostuff["id"]}`).addClass('active')
-                          $(`#${infostuff["id"]}`).parent().removeAttr('href')
-              
-                          $('#THEACTUALRSSPLAYER').flash({
-                            id: "Player",
-                            swf: "https://flashthemes.net/static/animationnew/414827163ad4eb60/rssplayer2.swf",
-                            height: 384,
-                            width: 550,
-                            bgcolor: "#000000",
-                            scale: "exactfit",
-                            quality: "low",
-                            allowScriptAccess: "always",
-                            allowFullScreen: "true",
-              
-                            hasVersion: "10.0.12",
-              
-                            flashvars: {
-                              "movieOwner":infostuff["owner"],
-                              "movieId":infostuff["id"],
-                              "movieLid":"6",
-                              "pwm":"0",
-                              "movieDesc":infostuff["desc"],
-                              "ut":"-1",
-                              "apiserver":"https:\/\/flashthemes.net\/",
-                              "duration":infostuff["duration"],
-                              "playcount":1,
-                              "thumbnailURL":infostuff["thumburl"],
-                              "copyable":"0",
-                              "isPublished":"1",
-                              "ctc":"go",
-                              "tlang":"en_US",
-                              "is_private_shared":"0",
-                              "autostart":"1",
-                              "isInitFromExternal":"0",
-                              "isWide":"0",
-                              "appCode":"go",
-                              "is_slideshow":"0",
-                              "is_emessage":"0",
-                              "storePath":infostuff["storePath"],
-                              "clientThemePath":"\/static\/ct\/ad44370a650793d9\/<client_theme>",
-                              "animationPath":"",
-                              "isEmbed":"1",
-                              "refuser":null,
-                              "utm_source":null,
-                              "uid":null,
-                              "isTemplate":"0",
-                              "showButtons":"1",
-                              "chain_mids":"",
-                              "endStyle":0,
-                              "showshare":true
-                            }
-                          })
-                        }
-                        function rssMoviePage(what) {
-                          var whatyouwannaplay_youwannabullyme_nevercomebackagain = ``;
-                          switch (what) {
-                            case 'init': 
-                            default: {
-                              currentmoviepage = 0;
-                              break;
-                            }
-                            case 'prev': {
-                              --currentmoviepage;
-                              break;
-                            }
-                            case 'next': {
-                              currentmoviepage++;
-                              break;
-                            }
-                          }
-                          for (var i = 0; i < currenttabmovies.length; i++) {
-                            if (i < (currentmoviepage+1)*5 && i >= currentmoviepage*5) {
-                              if (currenttabmovies[i]["selected"] == 1) {
-                                whatyouwannaplay_youwannabullyme_nevercomebackagain += `<a><div class="rssmovie active" title="${currenttabmovies[i]["title"]}" id="${currenttabmovies[i]["id"]}" style="background-image: url('https://flashthemes.net${currenttabmovies[i]["thumburl"]}'); background-size: 100% 100%;"></div></a>`
-                              } else {
-                                whatyouwannaplay_youwannabullyme_nevercomebackagain += `<a href="javascript:showPlayerLol(${encodeURI(JSON.stringify(currenttabmovies[i]))})"><div class="rssmovie" id="${currenttabmovies[i]["id"]}" title="${currenttabmovies[i]["title"]}" style="background-image: url('https://flashthemes.net${currenttabmovies[i]["thumburl"]}'); background-size: 100% 100%;"></div></a>`
-                              }
-                            }
-                          }
-                          if (currentmoviepage == 0) {
-                            $('#ksdfgskfdhgkjh').addClass('disabled')
-                            $('#ksdfgskfdhgkjh').parent().removeAttr('href')
-                          } else if ($('#ksdfgskfdhgkjh').hasClass('disabled')) {
-                            $('#ksdfgskfdhgkjh').removeClass('disabled')
-                            $('#ksdfgskfdhgkjh').parent().attr('href', `javascript:rssMoviePage('prev');`)
-                          }
-                          if (!$('#FUUUUUUUUUCKKKKKKKK').hasClass('disabled') && currentmoviepage == 6 ) {
-                            $('#FUUUUUUUUUCKKKKKKKK').addClass('disabled')
-                            $('#FUUUUUUUUUCKKKKKKKK').parent().removeAttr('href')
-                          } else {
-                            $('#FUUUUUUUUUCKKKKKKKK').removeClass('disabled')
-                            $('#FUUUUUUUUUCKKKKKKKK').parent().attr('href', `javascript:rssMoviePage('next');`);
-                          }
-                          $('#rssmovies').html(whatyouwannaplay_youwannabullyme_nevercomebackagain)
-                        }
-                        function switchTheTabLol(to) {
-                          var prevtab = $('.tabactive').attr("id")
-                          if (prevtab == to) {
-                            return;
-                          }
-                          var prevtabtext = $('#' + prevtab + 'textholder').text();
-                          currenttabmovies = [];
-                          currentmoviepage = 0;
-                          $('#' + prevtab).html(`<div id="${prevtab}textholder" class="tabc"><a id="${prevtab}link">${prevtabtext}</a></div>`)
-                          $('#' + prevtab).removeClass('tabactive')
-                          $('#' + prevtab).addClass('tabinactive')
-              
-                          var text = $("#" + to + 'link').text();
-                          $("#" + to + 'textholder').html(text);
-                          $('#' + to).removeClass('tabinactive')
-                          $('#' + to).addClass('tabactive')
-              
-                          $('#THEACTUALRSSPLAYER').html("")
-              
-                          var rssfile = 'topscored';
-                          switch (to) {
-                            case "sptab": {
-                              rssfile = 'staffpicks';
-                              break;
-                            }
-                            case "mrtab": {
-                              rssfile = 'mostshared';
-                              break;
-                            }
-                            case "mvtab": {
-                              rssfile = 'mostwatched';
-                              break;
-                            }
-                          }
-                      
-                          $.ajax({
-                            type: "GET",
-                            url: 'https://flashthemes.net/site/' + rssfile + '.rss',
-                            success: function (A) {
-                              var stuff = $(A).find("channel").find("item");
-                              var dffkh = stuff.length
-                              while (0 !== dffkh) {
-                                let randId = Math.floor(Math.random() * dffkh);
-                                dffkh -= 1;
-                                let tmp = stuff[dffkh];
-                                stuff[dffkh] = stuff[randId];
-                                stuff[randId] = tmp;
-                              }
-                              for (var i = 0; i < stuff.length; i++) {
-                                let thing = $(stuff[i]);
-                                let infostuff = {
-                                  owner: thing.find("author").text(),
-                                  title: thing.find("guid").text(),
-                                  id: thing.find("movieId").text(),
-                                  desc: thing.find("description").text(),
-                                  duration: thing.find("duration").text(),
-                                  thumburl: thing.find("thumbnailURL").text(),
-                                  views: thing.find("movieViews").text(),
-                                  ownerid: thing.find("movieOwnerId").text(),
-                                  storePath: "\/static\/store\/<store>?v=" + thing.find("movieOwnerId").text(),
-                                  selected: 0
-                                };
-                                if (i == 0) {
-                                  $('#videotitle').html(`<a href="/movie/${infostuff["id"]}">${infostuff["title"]}</a>`)
-                                  $('#ownername').html(`By <a href="/user/${infostuff["ownerid"]}">${infostuff["owner"]}</a>`)
-                                  $('#views').html(`${infostuff["views"]}`)
-                                  $('#THEACTUALRSSPLAYER').css('background', `#000 url('https://flashthemes.net${infostuff["thumburl"]}') no-repeat center center`)
-                                  $('#THEACTUALRSSPLAYER').html(`<a class="playvideobutton" href="javascript:showPlayerLol(${encodeURI(JSON.stringify(infostuff))})"><img src="/static/ft/img/playbutton/1.png" width="125"></a>`)
-                                  infostuff["selected"] = 1;
-                                }
-                                currenttabmovies.push(infostuff)
-                              }
-                              rssMoviePage('init')
-                            },
-                            failure: function() {
-                              displayFeedback('1' + GT.gettext("Error contacting the server"))
-                            },
-                            error: function(A) {
-                              displayFeedback('1' + A)
-                            }
-                          })
-                        }
-                        function shareMovie() {
-                          var ihate = currenttabmovies.findIndex(mhm => mhm.selected == 1);
-                          $.ajax({
-                            type: "POST",
-                            url: 'https://flashthemes.net/ajax/getMovieEmbedInfo/' + currenttabmovies[ihate]["id"],
-                            success: function (A) {
-                              clearInterval(timer);
-                              showOverlay(A);
-                              $('#embedmovie_' + currenttabmovies[ihate]["id"]).on('click', () => {
-                                startTimer();
-                              })
-                            },
-                            failure: function() {
-                              displayFeedback('1' + GT.gettext("Error contacting the server"))
-                            },
-                            error: function(A) {
-                              displayFeedback('1' + A)
-                            }
-                          });
-                        }
-                        $(document).ready(() => {
-                          switchTheTabLol('mptab')
-                        })
-                      </script>
 </div>
 </div>
 </div>
@@ -635,30 +270,10 @@ jQuery('.money').bind('mouseout', function(e) {
 <div class="narrowright">
 <div class="iblock">
 <div id="twitterdiv1">
-This content requires the Macromedia Flash Player. <a href="https://web.archive.org/web/20100709093553/http://www.macromedia.com/go/getflash/">Get Flash</a>
+This content requires the Macromedia Flash Player. <a href="/error.html">Get Flash</a>
 </div>
 <div class="rate_ani">
-<script>
-        $('#twitterdiv1').flash({
-            id: 'ads',
-            swf: "/static/ft/swf/bird_design4m.swf",
-            height: 70,
-            width: 320,
-
-            scale: "exactfit",
-	          wmode: "transparent",
-            bgcolor: "#000000",
-            quality: "high",
-            name: "ads"
-        })
-        </script>
 </div>
-</div>
-<div class="iblock" style="padding-top:20px">
-<div class="title">Latest tweets</div>
-<a class="twitter-timeline" data-width="415" data-height="530" href="https://twitter.com/ThemesFlash?ref_src=twsrc%5Etfw">Tweets by ThemesFlash</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 </div>
 </div>
 <div style="clear:both"></div>
@@ -670,23 +285,23 @@ This content requires the Macromedia Flash Player. <a href="https://web.archive.
 <div class="footernav clearfix">
 <div class="footer_block">
 <div class="footer_block_text" style="font-weight:bold;font-size:16px;">About FlashThemes</div>
-<div class="footer_block_text"><a href="/aboutus">Who we are</a></div>
-<div class="footer_block_text"><a href="https://twitter.com/ThemesFlash">Twitter</a></div>
-<div class="footer_block_text"><a href="/contest">Contests</a></div>
+<div class="footer_block_text"><a href="/error.html">Who we are</a></div>
+<div class="footer_block_text"><a href="/error.html">Twitter</a></div>
+<div class="footer_block_text"><a href="/error.html">Contests</a></div>
 </div>
 <div class="footer_block" style="border-right:none;">
 <div class="footer_block_text" style="font-weight:bold;font-size:16px;">Usage Guidelines</div>
-<div class="footer_block_text"><a href="/termsofuse">Terms of Use</a></div>
-<div class="footer_block_text"><a href="/legal">Legal Notices</a></div>
-<div class="footer_block_text"><a href="/privacy">Privacy Policy</a></div>
+<div class="footer_block_text"><a href="/error.html">Terms of Use</a></div>
+<div class="footer_block_text"><a href="/error.html">Legal Notices</a></div>
+<div class="footer_block_text"><a href="/error.html">Privacy Policy</a></div>
 </div>
 <div class="footer_right_block">
 <div class="right_mid">
 <div class="footer_right_block_text" style="font-weight:bold;font-size:16px;">Getting Help</div>
-<div class="footer_right_block_text"><a href="javascript:fullscreenStudio('/studioFullscreen/tutorial');">Tutorial</a></div>
-<div class="footer_right_block_text"><a href="/howdoesitwork">Help Videos</a></div>
-<div class="footer_right_block_text"><a href="/faq">FAQs</a></div>
-<div class="footer_right_block_text"><a href="https://discord.gg/xNUXFsFQdH">Discord</a></div>
+<div class="footer_right_block_text"><a href="/error.html">Tutorial</a></div>
+<div class="footer_right_block_text"><a href="/error.html">Help Videos</a></div>
+<div class="footer_right_block_text"><a href="/error.html">FAQs</a></div>
+<div class="footer_right_block_text"><a href="/error.html">Discord</a></div>
 </div>
 </div>
 </div>
@@ -701,7 +316,7 @@ This content requires the Macromedia Flash Player. <a href="https://web.archive.
 <div id="studio_container" style="display: none;">
 <div id="studio_holder">
 <div style="top: 50%; position: relative;">
-This content requires the Macromedia Flash Player 10.0.12. <a href="https://get.adobe.com/flashplayer/">Get Flash</a>
+This content requires the Macromedia Flash Player 10.0.12. <a href="/error.html">Get Flash</a>
 </div>
 </div>
 </div>
@@ -1001,11 +616,11 @@ Please wait <span id="WaitingDotDotDot"></span>
 <div id="terms_Err" class="loginErr">&nbsp;</div>
 <div class="signupLink" style="WIDTH: 300px; float:left; padding-top:10px; padding-left:195px; font-size:14px;">
 <input type="checkbox" name="termsofuse">I agree to the
-<a href="/termsofuse">Terms of Use</a>.
+<a href="/error.html">Terms of Use</a>.
 </div>
 <div class="label"></div>
 <div class="field" style="float:left;width:300px;padding-top:10px;padding-left:195px;">
-<a class="sitebtn" href="javascript:siteSignup('signup');">
+<a class="sitebtn" href="/error.html">
 <div id="site_signup_button" class="site_login_button">
 <li id="site_login_buttoncenterinactive">
 <span class="site_login_button_text">Sign Up</span>
@@ -1015,7 +630,7 @@ Please wait <span id="WaitingDotDotDot"></span>
 <input type="hidden" value="Sign Up" name="submit" id="signup_submit">
 </div>
 <div style="float:left;width:190px;padding-top:5px;padding-left:10px;font-size:12px;">Registered?
-<a href="javascript:hideSignup();javascript:showLogin(350);">Login here</a>.
+<a href="/error.html">Login here</a>.
 </div>
 </form>
 </div>
