@@ -4,8 +4,10 @@
     <img height="100%" src="./ClassicErrorScreen.jpg" style="position: absolute; left: 50%; transform: translateX(-50%);">
     <audio src="./ClassicError.wav" autoplay hidden id="error">
     <script>
+      var played = false;
       function playAudio() {
         document.getElementById('error').play();
+        played = true;
       }
     </script>
   </body>
